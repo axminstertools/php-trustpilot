@@ -1,0 +1,19 @@
+{
+    "name": "axminstertools/trustpilot",
+    "description": "Simple PHP library for TrustPilot API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Graphem Solutions",
+            "email": "info@graphem.ca"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5 || ^8.0",
+        "guzzlehttp/guzzle": "^7.2",
+        "nesbot/carbon": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {"TrustPilot\\": "src/TrustPilot"}
+    }
+}
