@@ -11,7 +11,7 @@
     "require": {
         "php": "^7.2.5 || ^8.0",
         "guzzlehttp/guzzle": "^7.2",
-        "nesbot/carbon": "^2.0"
+        "nesbot/carbon": "^3.0"
     },
     "autoload": {
         "psr-4": {"TrustPilot\\": "src/TrustPilot"}
